@@ -1,0 +1,6 @@
+{
+  "name": "Oficina TEA na Sala de Aula - Fabrine Fernandes",
+  "description": "Landing page de inscrição para a oficina presencial TEA na Sala de Aula: E agora, professor? Primeiros passos com a Neuropsicopedagoga Fabrine Fernandes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

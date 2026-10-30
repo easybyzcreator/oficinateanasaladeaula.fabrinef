@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oficina Presencial: TEA na Sala de Aula | Fabrine Fernandes</title>
+    <meta name="description" content="Oficina Presencial TEA na Sala de Aula - E agora, professor? Primeiros passos com a Neuropsicopedagoga Fabrine Fernandes em Americana/SP." />
+    <meta property="og:title" content="Oficina Presencial: TEA na Sala de Aula | Fabrine Fernandes" />
+    <meta property="og:description" content="Estratégias práticas, estudo de caso e manejo de TEA para professores e profissionais da educação. Garanta sua vaga com valor especial!" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#FAF7F2" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Oficina TEA" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/pwa-icon.png" />
+    <link rel="icon" type="image/png" href="/pwa-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // Clear legacy service worker caches from previous builds
+      if ('caches' in window) {
+        caches.keys().then(function(names) {
+          names.forEach(function(name) {
+            if (name.indexOf('v3') === -1) {
+              caches.delete(name);
+            }
+          });
+        });
+      }
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(regs) {
+          regs.forEach(function(reg) {
+            reg.update();
+          });
+        });
+      }
+    </script>
+  </head>
+  <body class="bg-[#FAF7F2] text-[#2D2D2D] antialiased selection:bg-[#FA4E74]/20 selection:text-[#FA4E74]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,39 @@
+{
+  "id": "/",
+  "name": "Oficina TEA na sala de aula - Fabrine Fernandes",
+  "short_name": "Oficina TEA",
+  "description": "Oficina Presencial TEA na Sala de Aula com a Neuropsicopedagoga Fabrine Fernandes em Americana/SP.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FAF7F2",
+  "theme_color": "#FAF7F2",
+  "categories": ["education", "events"],
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-icon.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://i.ibb.co/99nXWP3k/patitour-2026-10-21-T134057-829.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
